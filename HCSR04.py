@@ -60,7 +60,7 @@ while True:
         #r = requests.post(url, data=payload,headers=headers
         #print(r)
             
-        time.sleep(1)                          #5秒間待つ
+        time.sleep(5)                          #5秒間待つ
 
     except KeyboardInterrupt:       #Ctrl+Cキーが押された
         GPIO.cleanup()              #GPIOをクリーンアップ
