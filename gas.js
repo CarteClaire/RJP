@@ -25,10 +25,8 @@ function doGet(e) {
 
   let lastRow = sheet.getLastRow();
 
-  //const COUNT2H = 120;
-  //const COUNT3H = 180;
-  const COUNT2H = 5;
-  const COUNT3H = 10;
+  const COUNT2H = 120;
+  const COUNT3H = 180;
 
   //配列初期化
   let baseArray = [];
