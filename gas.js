@@ -1,16 +1,3 @@
-/*function doPost(e) {
-  let data = JSON.parse(e.postData.getDataAsString());
-  let distance = data.param;
-
-  //現在日時を取得
-  let now = new Date();
-
-  //スプレッドシートの最終行の1つ下の行に現在時刻と距離情報を追記
-  let spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
-  let sheet = spreadsheet.getActiveSheet();
-  sheet.appendRow([now,distance]);
-}*/
-
 function doGet(e) {
   let distance = e.parameter.data1;
 
