@@ -3,7 +3,7 @@ import time
 import sys
 import requests
 
-url = #ここにspreadsheetのURL名
+url = 'ここにspreadsheetのURL名'
 
 # HIGH or LOWの時計測
 def pulseIn(PIN, start=1, end=0):
